@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <nav className="w-full bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex items-center justify-between h-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-1 flex items-center justify-between h-16">
         {/* Logo */}
         <div className="flex items-center gap-8">
           <img
@@ -31,7 +31,7 @@ const NavBar = () => {
               >
                 {item.tip && (
                   <span
-                    className={`absolute -top-2 -right-3 rounded-sm text-center text-white w-7 text-xs ${item.bgColor}`}
+                    className={`absolute -top-3 -right-3 rounded-sm text-center text-white w-7 text-xs ${item.bgColor}`}
                   >
                     {item.tip}
                   </span>
