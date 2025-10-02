@@ -258,3 +258,4 @@ export const footerData = [
     description: "From Handpicked Sellers",
   },
 ];
+

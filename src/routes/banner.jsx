@@ -7,7 +7,7 @@ const Banner = () => {
         <img
           src="/background.jpg"
           alt="Banner"
-          className="w-full h-full object-cover absolute inset-0"
+          className="md:w-full h-full object-cover absolute inset-0"
         />
 
         <div className="absolute left-6 md:left-24 top-20 w-[90%] md:w-[350px] flex flex-col items-start gap-4 p-4 z-10">

@@ -25,7 +25,7 @@ const Product = () => {
                 key={item.title}
                 className="flex flex-col   items-center   bg-[#f7f7f7]  gap-[20px] mt-[20px] "
               >
-                <div className=" w-[200px] relative ">
+                <div className="lg: w-[300px] sm:w-[200px] relative ">
                   <span
                     className={`absolute top-[5px] left-[0] text-xs ${item.bgColor}`}
                   >
@@ -42,7 +42,7 @@ const Product = () => {
                   </div>
                 </div>
                 <div className="w-full flex flex-col items-center  justify-between gap-[10px]">
-                  <h3 className="text-sm text-green-500">{item.title}</h3>
+                  <h3 className="text-sm mt-5 text-green-500">{item.title}</h3>
                   <div className="w-full flex flex-row items-center justify-center gap-[5px] text-yellow-500">
                     <HiOutlineStar />
                     <HiOutlineStar />
